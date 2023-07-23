@@ -1,0 +1,148 @@
+/* CSS styles for the Watch Shop */
+
+/* Global styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f1f1;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin-bottom: 40px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  /* Content styles */
+  .content {
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .product {
+    width: calc(50% - 20px);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  .product img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px;
+  }
+  
+  .product h2 {
+    margin-top: 0;
+  }
+  
+  .product .price {
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .product button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .product button:hover {
+    background-color: #555;
+  }
+  
+  /* Sidebar styles */
+  .sidebar {
+    width: 200px;
+    background-color: #eee;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  .sidebar h3 {
+    margin-top: 0;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 5px;
+  }
+  
+  .sidebar ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  /* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-media {
+  font-size: 20px;
+}
+
+.social-icon {
+  color: #fff;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.advertisement img {
+  height: 30px;
+  margin-left: 10px;
+}
+
+p {
+  margin-top: 10px;
+}
+
+  
